@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About | Monchi Booth</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body id="mainBody" data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg border-bottom border-secondary sticky-top bg-body">
+        <div class="container">
+            <a class="navbar-brand logo-text fs-3" href="index.html">Monchi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center gap-3">
+                    <li class="nav-item"><a class="nav-link fw-bold" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="About.html">About</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="Privacy.html">Privacy</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="Contact.html">Contact</a></li>
+                    <li class="nav-item d-flex gap-2 ms-lg-3">
+                        <button class="btn btn-sm btn-outline-secondary" onclick="setMode('dark')">🌙</button>
+                        <button class="btn btn-sm btn-outline-danger" onclick="setMode('feminine')">✨</button>
+                    </li>
+        </ul>
+    </div>
+        </div>
+</nav>
+    <div class="container py-5">
+        <h2 class="logo-text">About Monchi Booth</h2>
+        <p class="lead">Monchi Booth was created for people who love capturing memories without needing expensive hardware. Just your browser, your smile, and our vibes.</p>
+        <div class="card p-4 bg-body-tertiary">
+            <h5 class="fw-bold">Our Mission</h5>
+            <p>To bring the fun and nostalgia of photo booths to everyone, everywhere, with zero hassle.</p>
+            <h5 class="fw-bold">Why I Built It</h5>
+            <p>I wanted a simple way to create photo strips for parties and events without needing a physical booth. So I built one that fits in your browser!</p>
+        </div>
+        <div class="card p-4 bg-body-tertiary">
+            <h5 class="fw-bold">How It Works</h5>
+            <p>Monchi Booth uses your device's camera to capture photos, processes them locally, and generates a photo strip you can download instantly. No uploads, no storage, just fun!</p>
+        </div>
+        <div class="card p-4 bg-body-tertiary">
+    <p class="fw-bold">Sample Photo Strips:</p>
+    <div class="row g-3">
+        <div class="col-md-6">
+            <img src="/images/booth-1775313367642.png" alt="Sample 1" class="img-fluid w-25" alt="Small Photo">
+        </div>
+        <div class="col-md-6">
+            <img src="/images/Trenred-1775317389849.png" alt="Sample 2" class="img-fluid w-25" alt="Small Photo">
+        </div>
+    </div>
+</div>
+    </div>
+    
+<canvas id="canvas" style="display:none;"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/SCRIPT/script.js"></script>
+</body>
+</html>

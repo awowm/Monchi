@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy | TREN RED</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="mainBody" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg border-bottom border-secondary sticky-top bg-body">
+        <div class="container">
+            <a class="navbar-brand logo-text fs-3" href="index.html">Monchi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center gap-3">
+                    <li class="nav-item"><a class="nav-link fw-bold" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="About.html">About</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="Privacy.html">Privacy</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="Contact.html">Contact</a></li>
+                    <li class="nav-item d-flex gap-2 ms-lg-3">
+                        <button class="btn btn-sm btn-outline-secondary" onclick="setMode('dark')">🌙</button>
+                        <button class="btn btn-sm btn-outline-danger" onclick="setMode('feminine')">✨</button>
+                    </li>
+        </ul>
+    </div>
+        </div>
+</nav>
+    <div class="container py-5">
+        <h2 class="logo-text">Privacy Policy</h2>
+        <div class="card p-4 bg-body-tertiary">
+            <p><strong>Your privacy is our priority.</strong></p>
+            <ul>
+                <li>We do NOT store your photos on our servers.</li>
+                <li>Processing happens entirely on your local device.</li>
+                <li>Once you close the tab, the session data is wiped.</li>
+            </ul>
+        </div>
+    </div>
+<canvas id="canvas" style="display:none;"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

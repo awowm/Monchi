@@ -1,0 +1,19 @@
+body { font-family: 'Inter', sans-serif; transition: background 0.4s ease; }
+.logo-text { font-weight: 800; letter-spacing: -2px; }
+
+video { transform: scaleX(-1); min-height: 400px; background: #000; border-radius: 12px; }
+
+/* THEMES */
+[data-bs-theme="dark"] { background-color: #0d0f14; }
+[data-bs-theme="feminine"] { background-color: #fff0f5 !important; color: #ff85a2 !important; }
+[data-bs-theme="feminine"] .logo-text { font-family: 'Dancing Script', cursive; color: #ff8299; }
+[data-bs-theme="feminine"] .card { background-color: #fff !important; border-color: #ff8cba !important; }
+[data-bs-theme="feminine"] .btn-primary { background: #ff85a2 !important; border: none; }
+[data-bs-theme="feminine"] .navbar { background-color: #fff0f5 !important; border-bottom: 1px solid #ffc1e3 !important; }
+
+#countdown { text-shadow: 0 0 30px rgba(0,0,0,1); z-index: 100; }
+
+.strip-container { width: fit-content; min-width: 200px; min-height: 500px; background-color: #fff; transition: background 0.3s; }
+.strip-container img { width: 180px; display: block; margin: 0 auto 8px auto; border-radius: 2px; }
+
+.d-none { display: none !important; }
